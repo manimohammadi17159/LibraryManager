@@ -1,0 +1,75 @@
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\UI.exe
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\UI.deps.json
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\UI.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\UI.pdb
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\Domain.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\Domain.pdb
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\refint\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.pdb
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\ref\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.LoginPage.resources
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\Service.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\Service.pdb
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\DataAccess.pdb
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.SignUpPage.resources
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Desktop\Windos Form Project\UI\obj\Debug\net6.0-windows\UI.BookShop.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.BookShop.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.LoginPage.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.Profile.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.SignUpPage.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\refint\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.pdb
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\UI.exe
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\UI.deps.json
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\UI.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\UI.pdb
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\Domain.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\Service.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\Domain.pdb
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\Service.pdb
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\bin\Debug\net6.0-windows\DataAccess.pdb
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\ref\UI.dll
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.InsertNewBook.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.BookInfo.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.ChargeCredit.resources
+C:\Users\ASUS\OneDrive\Desktop\LibraryManager\UI\obj\Debug\net6.0-windows\UI.AdminPanel.resources
