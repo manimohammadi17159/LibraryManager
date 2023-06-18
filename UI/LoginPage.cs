@@ -55,6 +55,7 @@ namespace UI
         private void btnUser_Click(object sender, EventArgs e)
         {
             lblUserModel.Text = "user";
+            llblSignup.Visible = true;
 
             btnUser.BackColor = Color.Gray;
             btnAdmin.BackColor = Color.White;

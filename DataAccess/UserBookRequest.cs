@@ -42,8 +42,8 @@ namespace DataAccess
         public void InsertNewUserBook(string username, Book newBook)
         {
 
-            string query = $"Insert INTO UserBook(Username, BookName, ImageAddress)" +
-                           $" Values('{username}','{newBook.Name}','{newBook.ImageAddress}')";
+            string query = $"Insert INTO UserBook(Username, BookName, ImageAddress, Price)" +
+                           $" Values('{username}','{newBook.Name}','{newBook.ImageAddress}','{newBook.Price}')";
 
             _dbHelper.ExecuteNonQuery(query);
 
