@@ -4,8 +4,6 @@ using Microsoft.VisualBasic.ApplicationServices;
 using UI.ExtenstionMethod;
 
 
-using Domain.Model;
-
 
 namespace UI
 {
@@ -18,19 +16,19 @@ namespace UI
         Domain.Model.User _user;
         
 
-        public BookShop(IBookManager bookManager, ICreditUpdater creditUpdater , IUserBookManager userBookManager, Domain.Model.User user)
+        public BookShop(IBookManager bookManager, ICreditUpdater creditUpdater , IUserBookManager userBookManager)
         {
             _bookManager = bookManager;
             _creditUpdater = creditUpdater;
             _userBookManager = userBookManager;
-            _user = user;
             InitializeComponent();
-
-            Creditlbl.Text = user.Credit.ToString();
         }
+        public void SetUserInfo(Domain.Model.User user)
+            =>_user = user;
 
         private void BookShop_Load(object sender, EventArgs e)
         {
+            Creditlbl.Text = _user.Credit.ToString();
 
             pictureBoxes = _bookManager.GetAllBooks().ConvertToPictureBoxShop(30, 30);
 
@@ -43,6 +41,7 @@ namespace UI
         }
         private void PictureBox_Click(object sender, EventArgs e)
         {
+
             PictureBox pictureBox = sender as PictureBox;
 
             Book book = new();

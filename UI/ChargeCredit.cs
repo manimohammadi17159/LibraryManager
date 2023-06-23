@@ -17,12 +17,13 @@ namespace UI
     {
         ICreditUpdater _creditUpdater;
         User _user = new();
-        public ChargeCredit(ICreditUpdater creditUpdater, User user)
+        public ChargeCredit(ICreditUpdater creditUpdater)
         {
             _creditUpdater = creditUpdater;
-            _user = user;
             InitializeComponent();
         }
+        public void SetUserInfo(Domain.Model.User user)
+          => _user = user;
 
         private void button1_Click(object sender, EventArgs e)
         {

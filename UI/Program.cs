@@ -15,6 +15,8 @@ namespace UI
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
+            FormManager.SetService(RegisterDependency.Register());
+
             Form form = new Form();
 
             Application.Run(form.Open("login"));

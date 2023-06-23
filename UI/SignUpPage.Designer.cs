@@ -165,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 450);
+            this.ClientSize = new System.Drawing.Size(421, 450);
             this.Controls.Add(this.lastnamelbl);
             this.Controls.Add(this.passwordlbl);
             this.Controls.Add(this.label12);
@@ -181,7 +181,6 @@
             this.Controls.Add(this.txtbx_Name);
             this.Name = "SignUpPage";
             this.Text = "SignUpPage";
-            this.Load += new System.EventHandler(this.SignUpPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

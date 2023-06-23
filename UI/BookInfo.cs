@@ -19,7 +19,7 @@ namespace UI
 
             _userBookManager = userBookManager;
 
-            InitializeComponent();          
+            InitializeComponent();
         }
         public void SetInfo(Book book, Image image, User user)
         {
@@ -32,8 +32,9 @@ namespace UI
             _book.Name = book.Name;
             _user = user;
             _credit = user.Credit;
-
         }
+        public void SetUserInfo(User user)
+            => _user = user;
 
         private void btnBuy_Click(object sender, EventArgs e)
         {
@@ -45,26 +46,27 @@ namespace UI
                 _user.Credit = _creditUpdater.CreditDeductor(_user.Username, price);
 
                 _userBookManager.NewUserBook(_user.Username, _book);
-                
+
                 MessageBox.Show("Your purchase was successful");
 
                 this.Open("book shop", _user);
             }
 
-           
+
         }
+
         private void BookInfo_Load(object sender, EventArgs e)
         {
             bool check = _userBookManager.FindUserBook(_user.Username, _book.Name);
 
             btnBuy.Visible = check == true ? false : true;
             lblAlreadyBuy.Visible = check == true ? true : false;
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.BackToMain();
+            this.Open("book shop", _user);
         }
     }
 }

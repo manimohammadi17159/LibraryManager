@@ -1,41 +1,41 @@
 ﻿using DataAccess;
 using Domain.Interface;
 using Domain.Model;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.VisualBasic.ApplicationServices;
 using Service;
+
 
 namespace UI.ExtenstionMethod
 {
     internal static class FormManager
     {
-        static IDbHelper _dbHelper = new DbHelper();
-        static IBookRequest _bookRequest = new BookRequest(_dbHelper);
-        static IBookManager _bookManager = new BookManager(_bookRequest);
-        static IUserRequest _userRequest = new UserRequest(_dbHelper);
-        static IUserManager _userManager = new UserManager(_userRequest);
-        static IUserBookRequest _userBookRequest = new UserBookRequest(_dbHelper);
-        static IUserBookManager _userBookManager = new UserBookManager(_userBookRequest);
-        static ICreditUpdater _creditUpdater = new CreditUpdater(_userRequest, _dbHelper);
-        static IBookIndex _bookIndex = new BookIndex(_userBookRequest);
-        static ISignUp _signUp = new SignUp(_userRequest);
-        static ILogin _login = new Login(_userRequest);
-        static User _user;
-        static public Form Open(this Form caller, string form, User user = null)// switchesh kon
+        static ServiceProvider _serviceProvider;
+        public static void SetService(ServiceProvider serviceProvider)
         {
+            _serviceProvider = serviceProvider;
+        }
+
+        public static Form Open(this Form caller, string form, Domain.Model.User user = null)
+        {
+
+
             Form result = new();
-            _user = user;
 
             switch (form.ToLower())
             {
+
                 case "login":
-                     LoginPage loginPage = new(_login);
-                     loginPage.Visible = true;
-                    
-                     caller.Hide();
-                     result = loginPage;
+                    LoginPage loginPage = _serviceProvider.GetRequiredService<LoginPage>();
+                    loginPage.Visible = true;
+
+
+                    caller.Hide();
+                    result = loginPage;
                     break;
 
                 case "sign up":
-                    SignUpPage signUp = new(_signUp);
+                    SignUpPage signUp = _serviceProvider.GetRequiredService<SignUpPage>();
                     signUp.Visible = true;
 
                     caller.Hide();
@@ -44,7 +44,8 @@ namespace UI.ExtenstionMethod
                     break;
 
                 case "book shop":
-                    BookShop bookShop = new(_bookManager, _creditUpdater, _userBookManager, _user);
+                    BookShop bookShop = _serviceProvider.GetRequiredService<BookShop>();
+                    bookShop.SetUserInfo(user);
                     bookShop.Visible = true;
 
                     caller.Hide();
@@ -53,7 +54,8 @@ namespace UI.ExtenstionMethod
                     break;
 
                 case "charge credit":
-                    ChargeCredit chargeCredit = new(_creditUpdater, _user);
+                    ChargeCredit chargeCredit = _serviceProvider.GetRequiredService<ChargeCredit>();
+                    chargeCredit.SetUserInfo(user);
                     chargeCredit.Visible = true;
 
                     caller.Hide();
@@ -62,7 +64,7 @@ namespace UI.ExtenstionMethod
                     break;
 
                 case "insert book":
-                    InsertNewBook insertNewBook = new(_bookManager);
+                    InsertNewBook insertNewBook = _serviceProvider.GetRequiredService<InsertNewBook>();
                     insertNewBook.Visible = true;
 
                     caller.Hide();
@@ -70,16 +72,19 @@ namespace UI.ExtenstionMethod
                     break;
 
                 case "profile":
-                    Profile profile = new(_userBookRequest, _user);
+                    Profile profile = _serviceProvider.GetRequiredService<Profile>();
+                    profile.SetUserInfo(user);
                     profile.Visible = true;
+
 
                     caller.Hide();
                     result = profile;
                     break;
 
                 case "admin panel":
-                    AdminPanel adminPanel = new(_userManager, _bookIndex);
+                    AdminPanel adminPanel = _serviceProvider.GetRequiredService<AdminPanel>();
                     adminPanel.Visible = true;
+
 
                     caller.Hide();
                     result = adminPanel;
@@ -90,14 +95,6 @@ namespace UI.ExtenstionMethod
             }
 
             return result;
-        }
-
-        public static void BackToMain(this Form form) 
-        {
-            BookShop bookShop = new(_bookManager, _creditUpdater, _userBookManager, _user);
-            form.Visible = false;
-
-            bookShop.Visible = true;       
         }
 
     }

@@ -1,14 +1,5 @@
 ﻿using Domain.Interface;
 using Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using UI.ExtenstionMethod;
 
 namespace UI
@@ -17,17 +8,15 @@ namespace UI
     {
         IUserBookRequest _bookRequest;
         User _user = new();
-        public Profile(IUserBookRequest userBookRequest, User user)
+        public Profile(IUserBookRequest userBookRequest)
         {
             _bookRequest = userBookRequest;
-            _user = user;
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-            
-        }
+        public void SetUserInfo(User user)
+          => _user = user;
+
 
         private void Profile_Load(object sender, EventArgs e)
         {
@@ -41,7 +30,7 @@ namespace UI
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.BackToMain();
+            this.Open("book shop", _user);
         }
     }
 }

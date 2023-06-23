@@ -14,12 +14,6 @@ namespace UI
             InitializeComponent();
         }
 
-        private void SignUpPage_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             User newUser = new User();
